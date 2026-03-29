@@ -3,10 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Home</title>
+    <style>
+        body { 
+            font-family: arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+        
+        main {
+            padding: 40px;
+            flex: 1;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Página Home</h1>
-    <a href="vendas.html">Ir para página de vendas</a>
+    <header>
+        <h1>Meu Site de Vendas</h1>
+    </header>
+
+    <main> 
+        <h1>Página Home</h1>
+        <h2>Bem-vindo!</h2>
+        <p>Este é um projeto simples para praticar HTML, CSS e Git.</p>
+        <a href="vendas.html">Ir para página de vendas</a> 
+    </main>
+
+    <footer>
+        <p>© 2026 - Projeto de Estudos</p>
+    </footer>
+    
 </body>
 </html>
